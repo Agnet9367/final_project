@@ -11,6 +11,8 @@ languages = ["English", "Spanish", "French", "German", "Mandarin", "Hindi", "Ara
 
 numb_of_npc = int(input("How many NPCs do you want (1 - 10): "))
 
+print(" ")
+
 if numb_of_npc <= 10:
     for i in range(numb_of_npc): 
         time.sleep(0.2)
@@ -27,15 +29,11 @@ if numb_of_npc <= 10:
 
         print("Job: ",random.choice(jobs));time.sleep(0.2)
 
-        print("Sigma: ",random.choice([True, False]));time.sleep(0.2)
+        print("Sigma: ", bool(random.randint(0,2)));time.sleep(0.2)
 
-        print("Atribute: ",random.choice(attributes));time.sleep(0.2)
-        print("Atribute: ",random.choice(attributes));time.sleep(0.2)
-        print("Atribute: ",random.choice(attributes));time.sleep(0.2)
-        print("Atribute: ",random.choice(attributes));time.sleep(0.2)
-        print("Atribute: ",random.choice(attributes));time.sleep(0.2)
+        for i in range(5):
+            print("Atribute: ",random.choice(attributes));time.sleep(0.2)
 
         print(" ");time.sleep(1)
 else:
     print("An error occured try again later")
-
