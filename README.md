@@ -1,7 +1,7 @@
 # 🤖 NPC Generator  
 
 ## 📖 Overview 
-The **NPC Generator** is a simple Python script that creates a random non-player characters (NPC's) for games, projects or other situations! Each NPC is assigned a random **name**, **height**, **age**, **job status**, and thre most important stats: **speed**, **power**, and **defene**.
+The **NPC Generator** is a simple Python script that creates a random non-player characters (NPC's) for games, projects or other situations! A user can choose the amount of NPC's they want to be generatedEach NPC is assigned a random **name**, **height**, **age**, **job status**, and three most important stats: **speed**, **power**, and **defene**.
 
 ## 📚 Libraries Used  
 - import time
@@ -24,7 +24,10 @@ for i in range(numb_of_npc):
 
 ## 🗃️ Variables
 lists of options for NPC attributes:
-
+```python
+names = ["Liam", "Olivia", "Noah", "Emma", "Oliver", "Ava", "Elijah", "Sophia", "William", "Isabella", "James", "Mia", "Benjamin", "Charlotte", "Lucas", "Amelia", "Henry", "Harper", "Alexander", "Evelyn", "Mason", "Abigail", "Michael", "Emily", "Daniel"]
+heights_feet = [4.8, 5.0, 5.1, 5.3, 5.5, 5.6, 5.7, 5.8, 5.9, 6.0, 6.1, 6.3, 6.5]
+```
 ## ⌨️ Example Output
 ```python
 --NPC Generator--
