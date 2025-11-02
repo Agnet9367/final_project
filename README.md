@@ -28,6 +28,10 @@ lists of options for NPC attributes:
 names = ["Liam", "Olivia", "Noah", "Emma", "Oliver", "Ava", "Elijah", "Sophia", "William", "Isabella", "James", "Mia", "Benjamin", "Charlotte", "Lucas", "Amelia", "Henry", "Harper", "Alexander", "Evelyn", "Mason", "Abigail", "Michael", "Emily", "Daniel"]
 heights_feet = [4.8, 5.0, 5.1, 5.3, 5.5, 5.6, 5.7, 5.8, 5.9, 6.0, 6.1, 6.3, 6.5]
 ```
+
+## ▶️ Usage
+Enter the number of NPC's you want when prompted. The program will then display each NPC's details with a short delay for readability.
+
 ## ⌨️ Example Output
 ```python
 --NPC Generator--
@@ -60,6 +64,7 @@ All of your NPCs have been generated!
 **Arsen Havur**
 
 GitHub: @Agnet9367
+Email: arsenhavyr@gmail.com
 
 
 
