@@ -1,26 +1,62 @@
-# NPC Generator 🤖 
+# 🤖 NPC Generator  
 
-## Overview 📖
-This Code creates 1 - 10 NPC's, all with random names, age, heigh, speed, strength and more!
+## 📖 Overview 
+The **NPC Generator** is a simple Python script that creates a random non-player characters (NPC's) for games, projects or other situations! Each NPC is assigned a random **name**, **height**, **age**, **job status**, and thre most important stats: **speed**, **power**, and **defene**.
 
-## Libraries That This Code Uses 📚 
+## 📚 Libraries Used  
 - import time
 - import random
 
-
-
-## Highlights 🌟
-This code allows the user to pick the number of NPC's they want to generate! From 1 to 10.
-```py
-numb_of_npc = int(input("How many NPCs do you want (1 - 10): "))
+## 🌟 Code Highlights
+This is a key part of the code that generates each NPC's random traits:
+```python
+for i in range(numb_of_npc): 
+    time.sleep(0.25)
+    print(f"NPC #{i+1}")
+    print("Name:", random.choice(names))
+    print(f"Height: {random.choice(heights_feet)} feet")
+    print("Has Job:", bool(random.randint(0,2)))
+    print("Age:", random.randint(18, 50))
+    print(f"Speed: {(round(random.uniform(0.0, 1.0) * 100)) / 100}")
+    print(f"Power: {(round(random.uniform(0.0, 1.0) * 100)) / 100}")
+    print(f"Defense: {(round(random.uniform(0.0, 1.0) * 100)) / 100}")
 ```
-These are the variables which store 'random' names and heights! The user can change them if they wish!
-```py
-names = ["Liam", "Olivia", "Noah", "Emma", "Oliver", "Ava", "Elijah", "Sophia", "William", "Isabella", "James", "Mia", "Benjamin", "Charlotte", "Lucas", "Amelia", "Henry", "Harper", "Alexander", "Evelyn", "Mason", "Abigail", "Michael", "Emily", "Daniel"]
-heights_feet = [4.8, 5.0, 5.1, 5.3, 5.5, 5.6, 5.7, 5.8, 5.9, 6.0, 6.1, 6.3, 6.5]
+
+## 🗃️ Variables
+lists of options for NPC attributes:
+
+## ⌨️ Example Output
+```python
+--NPC Generator--
+How many NPCs do you want? 2
+
+NPC #1
+Name: Olivia
+Height: 5.8 feet
+Has Job: True
+Age: 31
+Speed: 0.84
+Power: 0.63
+Defense: 0.41
+- - - - - - - - -
+
+NPC #2
+Name: Liam
+Height: 6.0 feet
+Has Job: False
+Age: 26
+Speed: 0.57
+Power: 0.77
+Defense: 0.69
+- - - - - - - - -
+
+All of your NPCs have been generated!
 ```
 
-## Author ✍️
-My name is Arsen Havur and I made this code. I made this code 
+## 👤 Author 
+**Arsen Havur**
+
+GitHub: @Agnet9367
+
 
 
