@@ -1,11 +1,14 @@
 # 🤖 NPC Generator  
 
 ## 📖 Overview 
-The **NPC Generator** is a simple Python script that creates a random non-player characters (NPC's) for games, projects or other situations! A user can choose the amount of NPC's they want to be generatedEach NPC is assigned a random **name**, **height**, **age**, **job status**, and three most important stats: **speed**, **power**, and **defene**.
+The **NPC Generator** is a simple Python script that creates a random Non-Player Characters (NPCs) for games,  projects or other situations. Each one of the NPCs is generated with a random combination of attributes, including **name**, **height**, **age**, **job status**, and three main stats: **speed**, **power** and **defense**.
+This script also uses the `time` module to make small delays between each printed line, giving the output a more pleasant feel as the NPCs appear one by one. This project is beginner friendly and shows essential programming concepts such as loops, lists, user input and  random.
+The NPC Generator is also really easily extendable. Users can add more features, like **genders, skills, or inventory items**, to make the generated characters even more detailed. This makes it ideal for game developers and writers who need a fast way to create a lot of different characters.
 
-## 📚 Libraries Used  
-- import time
-- import random
+## 📚 Modules
+This code uses 2 modules:
+- `import time`
+- `import random`
 
 ## 🌟 Code Highlights
 This is a key part of the code that generates each NPC's random traits:
@@ -23,7 +26,7 @@ for i in range(numb_of_npc):
 ```
 
 ## 🗃️ Variables
-lists of options for NPC attributes:
+This project uses variables (lists of options) for NPC names and heights:
 ```python
 names = ["Liam", "Olivia", "Noah", "Emma", "Oliver", "Ava", "Elijah", "Sophia", "William", "Isabella", "James", "Mia", "Benjamin", "Charlotte", "Lucas", "Amelia", "Henry", "Harper", "Alexander", "Evelyn", "Mason", "Abigail", "Michael", "Emily", "Daniel"]
 heights_feet = [4.8, 5.0, 5.1, 5.3, 5.5, 5.6, 5.7, 5.8, 5.9, 6.0, 6.1, 6.3, 6.5]
