@@ -37,27 +37,27 @@ Enter the number of NPC's you want when prompted. The program will then display 
 ```python
 --NPC Generator--
 How many NPCs do you want? 2
-
+ 
 NPC #1
-Name: Olivia
+Name:  Oliver
 Height: 5.8 feet
-Has Job: True
-Age: 31
-Speed: 0.84
-Power: 0.63
-Defense: 0.41
+Has Job:  False
+Age:  45
+ 
+Speed:0.66 
+Power:0.75 
+Defense:0.68 
 - - - - - - - - -
-
 NPC #2
-Name: Liam
-Height: 6.0 feet
-Has Job: False
-Age: 26
-Speed: 0.57
-Power: 0.77
-Defense: 0.69
+Name:  James
+Height: 5.1 feet
+Has Job:  False
+Age:  27
+ 
+Speed:0.82 
+Power:0.79 
+Defense:0.79 
 - - - - - - - - -
-
 All of your NPCs have been generated!
 ```
 
